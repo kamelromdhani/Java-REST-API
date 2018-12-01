@@ -13,24 +13,24 @@ Here is the structure of the two entities and the relationship between them.
 
 ### projects
 
-| Method     | URI                               | Action                                                  |
-|------------|-----------------------------------|---------------------------------------------------------|
-| `POST`     | `projects`                        | `App\Http\Controllers\CommentsController@createProject` |
-| `GET/`     | `projects`                        | `App\Http\Controllers\CommentsController@getProjects`   |
-| `GET/`     | `projects/{id}`                   | `App\Http\Controllers\CommentsController@getProject`    |
-| `DELETE`   | `projects/{id}`                   | `App\Http\Controllers\CommentsController@deleteProject` |
-| `PUT`      | `projects/{id}`                   | `App\Http\Controllers\CommentsController@updateProject` |
+| Method     | URI                               | Action                                                       |
+|------------|-----------------------------------|--------------------------------------------------------------|
+| `POST`     | `projects`                        |`ekhdemliDrousi\controllers\ProjectController@createProject` |          
+| `GET/`     | `projects`                        | `ekhdemliDrousi\controllers\ProjectController@getProjects`  |
+| `GET/`     | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@getProject`   |
+| `DELETE`   | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@deleteProject`|
+| `PUT`      | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@updateProject`|
 
 
 ### Users
 
-| Method     | URI                               | Action                                                  |
-|------------|-----------------------------------|---------------------------------------------------------|
-| `GET`      | `users`                           | `App\Http\Controllers\UsersController@getUsers`         |
-| `POST`     | `users`                           | `App\Http\Controllers\UsersController@createUser`       |
-| `PUT`      | `users/{id}`                      | `App\Http\Controllers\UsersController@updateUser`       |
-| `GET`      | `users/{id}`                      | `App\Http\Controllers\UsersController@getUser`          |
-| `DELETE`   | `users/{id}`                      | `App\Http\Controllers\UsersController@deleteUser`       |
+| Method     | URI                               | Action                                                        |
+|------------|-----------------------------------|---------------------------------------------------------------|
+| `GET`      | `users`                           | `ekhdemliDrousi\controllers\UserController@getUsers`         |
+| `POST`     | `users`                           | `ekhdemliDrousi\controllers\UserController@createUser`       |
+| `PUT`      | `users/{id}`                      | `ekhdemliDrousi\controllers\UserController@updateUser`       |
+| `GET`      | `users/{id}`                      | `ekhdemliDrousi\controllers\UserController@getUser`          |
+| `DELETE`   | `users/{id}`                      | `ekhdemliDrousi\controllers\UserController@deleteUser`       |
 
 
 ### user response example
