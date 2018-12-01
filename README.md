@@ -2,7 +2,8 @@
 It is a Java API that allows you to manipulate two entities: Project and User.
 
 Here is the structure of the two entities and the relationship between them.
-![alt text](https://github.com/kamelromdhani/Java-REST-API/blob/master/ekhdemliDrousi/src/main/resources/entitiesAssociation.png)
+
+![alt text](https://github.com/kamelromdhani/Java-REST-API/blob/master/ekhdemliDrousi/src/main/resources/entitiesAssociation.png).
 ## Features
 
 - RESTful routing
@@ -15,22 +16,22 @@ Here is the structure of the two entities and the relationship between them.
 
 | Method     | URI                               | Action                                                       |
 |------------|-----------------------------------|--------------------------------------------------------------|
-| `POST`     | `projects`                        |`ekhdemliDrousi\controllers\ProjectController@createProject` |          
-| `GET`     | `projects`                        | `ekhdemliDrousi\controllers\ProjectController@getProjects`  |
-| `GET`     | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@getProject`   |
-| `DELETE`   | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@deleteProject`|
-| `PUT`      | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@updateProject`|
+| `POST`     | `projects`                        |`ekhdemliDrousi\controllers\ProjectController@createProject`  |          
+| `GET`      | `projects`                        | `ekhdemliDrousi\controllers\ProjectController@getProjects`   |
+| `GET`      | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@getProject`    |
+| `DELETE`   | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@deleteProject` |
+| `PUT`      | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@updateProject` |
 
 
 ### Users
 
 | Method     | URI                               | Action                                                        |
 |------------|-----------------------------------|---------------------------------------------------------------|
-| `GET`      | `users`                           | `ekhdemliDrousi\controllers\UserController@getUsers`         |
-| `POST`     | `users`                           | `ekhdemliDrousi\controllers\UserController@createUser`       |
-| `PUT`      | `users/{id}`                      | `ekhdemliDrousi\controllers\UserController@updateUser`       |
-| `GET`      | `users/{id}`                      | `ekhdemliDrousi\controllers\UserController@getUser`          |
-| `DELETE`   | `users/{id}`                      | `ekhdemliDrousi\controllers\UserController@deleteUser`       |
+| `GET`      | `users`                           | `ekhdemliDrousi\controllers\UserController@getUsers`          |
+| `POST`     | `users`                           | `ekhdemliDrousi\controllers\UserController@createUser`        |
+| `PUT`      | `users/{id}`                      | `ekhdemliDrousi\controllers\UserController@updateUser`        |
+| `GET`      | `users/{id}`                      | `ekhdemliDrousi\controllers\UserController@getUser`           |
+| `DELETE`   | `users/{id}`                      | `ekhdemliDrousi\controllers\UserController@deleteUser`        |
 
 
 ### user response example
@@ -63,7 +64,7 @@ Here is the structure of the two entities and the relationship between them.
 
 ### prerequisites
 #### MongoDB
-create a mongodb ekhdemliDrousi : `use ekhdemliDrousi`
-create collection project : `db.createCollection("project")`
-create collection user : `db.createCollection("user")`
+create a mongodb ekhdemliDrousi : `use ekhdemliDrousi` .
+create collection project : `db.createCollection("project")`.
+create collection user : `db.createCollection("user")`.
 #### Maven
