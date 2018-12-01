@@ -16,8 +16,8 @@ Here is the structure of the two entities and the relationship between them.
 | Method     | URI                               | Action                                                       |
 |------------|-----------------------------------|--------------------------------------------------------------|
 | `POST`     | `projects`                        |`ekhdemliDrousi\controllers\ProjectController@createProject` |          
-| `GET/`     | `projects`                        | `ekhdemliDrousi\controllers\ProjectController@getProjects`  |
-| `GET/`     | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@getProject`   |
+| `GET`     | `projects`                        | `ekhdemliDrousi\controllers\ProjectController@getProjects`  |
+| `GET`     | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@getProject`   |
 | `DELETE`   | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@deleteProject`|
 | `PUT`      | `projects/{id}`                   | `ekhdemliDrousi\controllers\ProjectController@updateProject`|
 
