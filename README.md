@@ -31,7 +31,7 @@ A java rest api for manipulating users and their projects
 | `DELETE`   | `users/{id}`                      | `App\Http\Controllers\UsersController@deleteUser`       |
 
 
-### user example
+### user response example
 {
     "_id": "5bfecf07fa8cd5189412f485",
     "first_name": "romdhani",
@@ -42,7 +42,7 @@ A java rest api for manipulating users and their projects
     "projctsID": []
 }
 
-### project example
+### project response example
 {
         "_id" : ObjectId("5bfc5b5da551e11c8c7cdcad"),
         "name" : "project3",
