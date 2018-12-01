@@ -62,6 +62,33 @@ Here is the structure of the two entities and the relationship between them.
         ],
 }
 
+### project post example
+
+{
+        "name" : "project3",
+        "description" : "description3",
+        "date_limite" : "2019-01-09",
+        "post_date" : "2018-11-24",
+        "etat" : "not solved",
+        "categorie" : "computer science",
+        "files" : [
+                {
+                        "url" : "urlFile3",
+                        "name" : "file3"
+                }
+        ],
+}
+
+### user post example
+
+{
+    "first_name": "romdhani",
+    "last_name": "kamel",
+    "email": "romdhanikamel30@gmail.com",
+    "password": "admin",
+    "phone": "94428870",
+}
+
 ### prerequisites
 
 #### MongoDB
@@ -72,3 +99,13 @@ create collection project : `db.createCollection("project")`.
 create collection user : `db.createCollection("user")`.
 
 #### Maven
+
+#### How to use :
+
+- Download or clone the proeject
+- Open eclipse and import it
+- Create the database and both collections "project" and "user"
+- Run the project as spring boot app
+to consume the API you can use postman
+
+
