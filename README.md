@@ -63,8 +63,12 @@ Here is the structure of the two entities and the relationship between them.
 }
 
 ### prerequisites
+
 #### MongoDB
 create a mongodb ekhdemliDrousi : `use ekhdemliDrousi` .
+
 create collection project : `db.createCollection("project")`.
+
 create collection user : `db.createCollection("user")`.
+
 #### Maven
