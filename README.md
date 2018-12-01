@@ -106,6 +106,6 @@ create collection user : `db.createCollection("user")`.
 - Open eclipse and import it
 - Create the database and both collections "project" and "user"
 - Run the project as spring boot app
-to consume the API you can use postman
+to consume the API you can use postman, endpoint : http://localhost:8082/
 
 
