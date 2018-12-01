@@ -1,5 +1,7 @@
 # Java-REST-API
-A java rest api for manipulating users and their projects 
+It is a Java API that allows you to manipulate two entities: Project and User.
+
+Here is the structure of the two entities and the relationship between them.
 
 ## Features
 
